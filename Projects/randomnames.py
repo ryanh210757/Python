@@ -9,7 +9,7 @@
 # ask user to quit or play again
 
 
-import sys, random
+import random
 
 def getrandomname():
 
@@ -62,9 +62,7 @@ def getrandomname():
             break
     if playagain == "y":
         return getrandomname()
-    else:
-        print(f'Welcome to the world, {first_name} {last_name}!')
-        
+    print(f'Welcome to the world, {first_name} {last_name}!')
 
-
-getrandomname()
+if __name__ == "__main__":
+    getrandomname()
