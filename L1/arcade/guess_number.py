@@ -55,10 +55,10 @@ def guess_number(name = 'PlayerOne'):
             else:
                 return
     
-    play_guess_number()
+    return play_guess_number()
 
 
 
-guess_number()
+
 
 
